@@ -1,3 +1,4 @@
+//Soma de A + B e resultado na váriavel SOMA
 #include <stdio.h>
  
 int main() {

@@ -1,3 +1,4 @@
+//Calcula média de notas com peso total de 11
 #include <stdio.h>
  
 int main() {

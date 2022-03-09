@@ -1,3 +1,5 @@
+//soma as váriaveis A + B e o resultado vai para X.
+
 #include <stdio.h>
  
 int main() {

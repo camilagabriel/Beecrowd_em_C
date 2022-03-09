@@ -1,3 +1,4 @@
+//Multiplicação de Y * X e valor na variável prod
 #include <stdio.h>
  
 int main() {
