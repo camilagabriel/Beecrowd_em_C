@@ -2,12 +2,15 @@
  
 int main() {
  
-  int a,b,c,d,x;
-  scanf("%d %d %d %d",&a,&b,&c,&d);
+  int numfun, numhr;
+  float valorhr, x;
+
+  scanf("%d %d %f",&numfun,&numhr,&valorhr);
    
-  x=((a*b)-(c*d));
-    
-  printf("DIFERENCA = %d\n",x);
- 
-    return 0;
+  x= (numhr * valorhr);
+
+  printf("NUMBER = %d\n",numfun);
+  printf("SALARY = U$ %.2f\n", x);
+
+  return 0;
 }

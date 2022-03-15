@@ -1,13 +1,14 @@
 #include <stdio.h>
  
 int main() {
- 
-  int a,b,c,d,x;
-  scanf("%d %d %d %d",&a,&b,&c,&d);
-   
-  x=((a*b)-(c*d));
+
+  int A, B, C, D, X;
+
+  scanf ("%d %d %d %d", &A, &B, &C, &D);
+
+  X = ((A*B)-(C*D));
+
+  printf ("DIFERENCA = %d\n", X);
     
-  printf("DIFERENCA = %d\n",x);
- 
-    return 0;
+  return 0;
 }
